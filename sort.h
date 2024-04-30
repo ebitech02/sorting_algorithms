@@ -28,3 +28,4 @@ void bubble_sort(int *array, size_t size);
 void fn_swap(int *var1, int *var2);
 
 #endif /* SORT_H */
+

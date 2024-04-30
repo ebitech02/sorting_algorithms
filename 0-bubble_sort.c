@@ -10,7 +10,7 @@
 
 void bubble_sort(int *array, size_t size)
 {
-	int swap_num; 
+	int swap_num;
 	size_t i, j;
 
 	for (i = 0; i < size; i++)
@@ -48,3 +48,4 @@ void fn_swap(int *var1, int *var2)
 	*var1 = *var2;
 	*var2 = temp;
 }
+
