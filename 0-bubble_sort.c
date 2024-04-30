@@ -21,7 +21,7 @@ void bubble_sort(int *array, size_t size)
 			if (array[j] > array[j + 1])
 			{
 				swap_num = 1;
-				fn_swap(&array[j] &array[j + 1]);
+				fn_swap(&array[j], &array[j + 1]);
 				print_array(array, size);
 			}
 		}
@@ -32,10 +32,10 @@ void bubble_sort(int *array, size_t size)
 
 
 /**
- * fn_swap - swap the variables
+ * fn_swap - Swap the variables
  *
- * @var1: the first variable
- * @var2: the second variable
+ * @var1: The first variable
+ * @var2: The second variable
  *
  * Return: void
  */
